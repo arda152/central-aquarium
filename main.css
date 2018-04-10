@@ -1,0 +1,184 @@
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: inherit;
+    color: turquoise;
+}
+
+.navbar li {
+    margin-right: 7px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar li:last-of-type {
+    margin-right: inherit;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/*Home div*/
+
+#top {
+    text-align: center;
+    padding: 30px 0;
+}
+
+#top h2 {
+    display: block;
+    margin-top: 30px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+
+/* Thumbnail boxes */
+
+#thumbs {
+    color: white;
+    padding: 50px 10% 0 10%;
+    background: url(images/underwater.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#thumbs .card {
+    margin-right: 5%;
+    padding: 0;
+    color: darkslategrey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border: 0;
+}
+
+#thumbs .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#thumbs h2,
+#thumbs h5 {
+    position: relative;
+    left: -2.5%;
+}
+
+/*Donation*/
+
+#donate {
+    padding: 50px 8%;
+    background-image: url(images/Underwater_world.jpg);
+    background-size: cover;
+    color: whitesmoke
+}
+
+#donate button {
+    border-radius: 8px;
+    font-size: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Image grid */
+
+#imagesection {
+    padding: 50px 8%;
+    word-wrap: break-word;
+}
+
+#imagesection img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*info grid*/
+
+#infogrid {
+    padding: 50px 8%;
+}
+
+#infogrid .row {
+    padding-left: 20px;
+}
+
+#infogrid img {
+    max-width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+
+#infogrid div h5 {
+    font-style: italic;
+}
+
+#infogrid div {
+    padding: 0 0 30px 0;
+}
+
+
+/*misc section*/
+
+#misc {
+    padding: 50px 8%;
+    color: darkslategray;
+}
+
+#misc .col-md {
+    padding-bottom: 40px;
+}
+
+#misccontact span {
+    color: darkcyan;
+    width: 20px;
+    top: 3px;
+}
+
+.btn {
+    background-color: darkcyan;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: turquoise;
+}
+
+
+
+/* Warning! Wild selector ahead*/
+
+#misc table tr:first-of-type td {
+    border-top: 0;
+}
+
+.media-button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+
+#secondbutton span {
+    top: -1px;
+}
+
+.media-button:hover {
+    background-color: turquoise;
+}
